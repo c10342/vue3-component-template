@@ -1,0 +1,47 @@
+@for $i from 1 through 50 {
+  .mt-#{$i} {
+    margin-top: $i + px;
+  }
+  .mb-#{$i} {
+    margin-bottom: $i + px;
+  }
+  .ml-#{$i} {
+    margin-left: $i + px;
+  }
+  .mr-#{$i} {
+    margin-right: $i + px;
+  }
+
+  .margin-#{$i} {
+    margin: $i + px;
+  }
+
+  .pt-#{$i} {
+    padding-top: $i + px;
+  }
+  .pb-#{$i} {
+    padding-bottom: $i + px;
+  }
+  .pl-#{$i} {
+    padding-left: $i + px;
+  }
+  .pr-#{$i} {
+    padding-right: $i + px;
+  }
+
+  .padding-#{$i} {
+    padding: $i + px;
+  }
+}
+
+.table-of-contents {
+  position: fixed;
+  top: calc(var(--navbar-height) - 2 * var(--navbar-padding-v) + 30px);
+  right: 20px;
+}
+
+@media (max-width: 1400px) {
+  .table-of-contents {
+    display: none !important;
+  }
+}
