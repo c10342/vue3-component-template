@@ -10,7 +10,7 @@
 
 - `vuepress`
 
-- `eslint`+`prettier`
+- `eslint`
 
 - `rollup`
 
